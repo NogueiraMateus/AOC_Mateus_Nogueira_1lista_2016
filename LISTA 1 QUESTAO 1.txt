@@ -1,0 +1,10 @@
+1. Von Neumann praticamente criou um modelo base para todo os computadores de hoje, com componentes como:
+Memoria, unidade de controle, unidade logica e aritmética e dispositivos de entrada e saida.
+
+UNIDADE DE CONTROLE: determina sequencia de instruções a serem executadas gerando sinais de controle para outras unidades.
+
+MEMORIA: armazena valores de intruções como um programa e outros.
+
+UNIDADE LÓGICA E ARITMETICA: executa as instruções lógicas e aritméticas fornecendo um resultado.
+
+DISPOSITIVOS DE ENTRADA E SAIDA: Dispositivos de comunicação interna e externa.
