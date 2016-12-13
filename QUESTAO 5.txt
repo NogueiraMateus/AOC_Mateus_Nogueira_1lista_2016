@@ -1,0 +1,19 @@
+[QUESTÃO 05]. Desejamos comparar a performace de duas máquinas diferentes, M1 e M2. As medidas a seguir foram realizadas nestas máquinas:
+
+Programa		Tempo em M1		Tempo em M2
+1			10 segundos		5 segundos
+2			3 segundos		4 segundos
+
+Com base em tais medidas, pergunta-se: qual das máquinas é mais rápida na execução de cada um dos programas? Escolhida a mais rápida, calcule quão mais rápida ela é.
+
+Tempo de execução de M1/ tempo de execução de M2	=> 10/5		=> 2
+
+No Programa 1 a maquina 2 é mais rapida do que a maquina 1;
+a maquina 1 é 2 vezes mais rapida que a maquina 1;
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Tempo de execução de M2/ tempo de execução de M1	=> 4/3		=> 1,33
+
+No Programa 2 a maquina 1 é mais rapida do que a maquina 2;
+a maquina 1 é 1,33 vezes mais rapida que a maquina 2;
+
