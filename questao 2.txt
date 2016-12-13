@@ -1,0 +1,8 @@
+A arquitetura de havard surgiu com a necessidade de melhorar o desempenho do microprocessador,com a separação dos
+barramentos das memoria de dados e da memoria instruções, obtendo um melhor desempenho da arquitetura de von neumann, 
+ja que busca uma nova instrução e ao mesmo tempo executa outra.
+
+O funcionamento de instruções da arquitetura Harvard é semelhante ao da arquitetura von Neumann. Porém,
+ao invés da instrução ser divida em 3 partes independentes(execução, decodificação e busca), ela é dividida em 5 partes,
+sendo elas (busca da instrução na memória, leitura dos registradores e decodificação da instrução,
+execução da instrução/cálculo do endereço, acesso a um operando na memória e escrita de um resultado em um registrador).
