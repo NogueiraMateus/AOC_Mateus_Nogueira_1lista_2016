@@ -1,0 +1,70 @@
+
+Switch: 				# a partir da posicao 1000 de memória
+
+Caso1:
+	beq $s0,$t1,Caso1 		#k=0
+	Add  $t0, $s3, $s4		#Soma dos valores de $s3 e $s4 em $t0
+	j FIM				#Jumper para o FIM
+caso2
+	beq $s0,$t2,Caso2 		#k=1
+	Add  $t0, $s1, $s2		#Soma dos valores de $s1 e $s2 em $t0
+	j FIM				#Jumper para o FIM
+Caso3:
+	beq $s0,$t3,Caso3 		#k=2
+	Sub $t0,$s1,$s2			#subtração dos valores de $s1 e $s2 em $t0
+	J FIM				#Jumper para o FIM
+Caso4:
+	beq $s0,$t4,Caso4 		#k=4
+	Sub $t0,$s3,$s4			#subtração dos valores de $s3 e $s4 em $t0
+FIM
+
+
+
+
+
+MEMORIA 	OP=6		RS=5		RT=5		RD=5		SHAMT=5		FUNC=6		TIPO
+1000		4		16		9		1004						i		
+
+1004		0		8		19		20				32		r	
+
+1008		2								1044				j											
+
+1012		4		16		10		1016						i									
+
+1016		0		8		17		18				32		r					
+
+1020		2								1044				j										
+
+1024		4		16		11		1028						i
+
+1028		0		8		17		19				34		r																
+
+1032		2								1044				j																								
+
+1036		4		16		12		1040						i														
+	
+1040		0		8		19		20				34		r																			
+
+1044		-		-		-		-				-		-			
+
+
+
+
+
+
+
+
+
+
+T0=8
+T1=9
+T2=10
+T3=11
+T4=12
+T7=15
+S0=16
+S1=17
+S2=18
+S3=19
+S4=20
+S7=23
