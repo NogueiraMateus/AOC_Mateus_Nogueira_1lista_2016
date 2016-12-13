@@ -1,0 +1,9 @@
+
+Primeiro começamos adicionando um multiplexador no "A chamado A2", resultando em todas as possibilidades de entrada no circuito;
+
+1- para conseguirmos o NOR, precisamos entrar com as portas A=0 e B=0
+
+2- para conseguirmos o NAND, precisamos entrar com as portas "se alguma porta A ou B for = 0 a NAND será ativa"
+
+3- para o NOT foi adicionado um barramento extra de B para o multiplexador de A2, fazendo com que B entre 2 vezes negando,
+ativando a porta NOT.
