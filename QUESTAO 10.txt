@@ -1,0 +1,10 @@
+
+Primeiro começamos adicionando um multiplexador de 2 bits no A (chamado A2), resultando em todas as possibilidades de entrada no circuito;
+
+
+1- para conseguirmos o NOR, precisamos entrar com as portas do multiplexador A2=00 e porta do multiplexador B=0.
+
+2- para conseguirmos o NAND, precisamos entrar com as portas do multiplexador A=00 e nas porta do multiplexador B= QUALQUER.
+
+3- para o NOT foi adicionado um barramento extra de B para o multiplexador de A2, fazendo com que no multiplexador B entre 2 vezes negando,
+ativando a porta NOT. 	nas portas do multiplexador A= 10 e na porta do multiplexador B= 0.
