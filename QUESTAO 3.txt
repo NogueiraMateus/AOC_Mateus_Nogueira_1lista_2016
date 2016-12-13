@@ -1,0 +1,30 @@
+
+a = 1cm
+B = 2cm
+c = 3cm
+
+defeito = 0,5p/cm²
+
+area do wafer=3,14 x 20² 	=> area do wafer=1256cm²;
+
+chips por wafer A= 1256/1 	=> chips por wafer= 1256;	
+;
+chips por wafer B= 1256/4 	=> chips por wafer= 314;
+
+chips por wafer C= 1256/9	=> chips por wafer= 139,55;
+
+
+
+rendimento de A=  1/(1+(0,5 x 1/2))² 	=> 1/(1,25)² 	=> 1/1,5625 	=> rendimento do A= 0,64;
+
+rendimento de B=  1/(1+(0,5 x 4/2))² 	=> 1/2² 	=> 1/4 		=> rendimento do A= 0,25;
+
+rendimento de c=  1/(1+(0,5 x 9/2))² 	=> 1/(3,25)² 	=> 1/10,5625 	=> rendimento do A= 0,0946;
+
+
+
+custo por chip de A= 100/1256 x 0,64 		=> 100/803,84 	=> Custo por chip de A= 0,124$
+	
+custo por chip de B= 100/314 x 0,25 		=> 100/78,5 	=> Custo por chip de A= 1,273$
+
+custo por chip de C= 100/139,55 x 0,096 	=> 100/13,39 	=> Custo por chip de A= 7,468$
