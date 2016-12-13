@@ -1,0 +1,10 @@
+Temos como exemplo da instrução do tipo R: ADD $s0 $s1 $s2
+
+1- O pc entra com a instrução do tipo R;
+2- indereço de leitura para saber quais registradores $s0 $s1 $s2 serão usadas na instrução;
+3- os registradores $s1 $s2 no banco de registradores serão lido, já o Registrador $s0 passa antes por um multiplexador para ser o registrador destino;
+4- os registradores $s1 entra diretamente na ULA, Ja o registrador $s2 passa por um multiplexador para saber se o valor será alocado na memoria,
+como nao precisa o miltiplexador manda direto para ULA;
+5- a intrução será executada pela ULA;
+6- como a instrução nao será alocada na memoria ela passa direto para um multiplexador;
+7- o multiplexador recebe o valor da instrução e manda para o registrador destino no banco de registradores.
