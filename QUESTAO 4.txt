@@ -1,0 +1,51 @@
+[QUESTÃO 04]. Do livro de Organização de computadores. Considere uma máquina que possua três diferentes classes de instruções,
+e medidas da CPI idênticas às do último exemplo. Suponha que a medida do tamanho do código gerado para o mesmo programa
+por dois compiladores diferentes tenha apresentado os seguintes resultados:
+Código do
+
+Número de instruções (em bilhões) para cada classe de instrução
+		A		B		C
+Compilador 1	5 		1		1
+Compilador 2	10		1		1
+	
+Classe de instrução CPI para esta classe de instrução
+		A		1
+		B		2	
+		C		3
+Suponha que a máquina rode um clock de 500 MHz. Qual a sequência de código que executa mais rápido de acordo com a definição de MIPS?
+E de acordo com o tempo de execução?
+
+
+contagem de instruções do copilador 1 = 5 + 1 + 1 = 7*10^6
+contagem de instruções do copilador 2 = 10 + 1 + 1 = 12*10^6
+
+
+ciclos de clock CPU 1= (5*(1*10^6))+(1*(2*10^6))+(1*(3*10^6)) 		= 10*10^6
+ciclos de clock CPU 2= (10*1*(1*10^6))+(1*(2*10^6))+(1*(3*10^6))	= 15*10^6
+
+
+CPI1 = ciclos de clock CPU/contagem de instruções do copilador 1	=> 10*10^6/7*10^6 	= 1,42
+CPI1 = ciclos de clock CPU/contagem de instruções do copilador 2	=>15*10^6/12*10^6	= 1,25
+
+
+MIPS = taxa de clock/CPI * 10*10^6
+
+MIPS1 = 500*10^6/1,42 *10^6 		=> MIPS1 = 352,11
+MIPS1 = 500*10^6/1,25 *10^6		=> MIPS2 = 400,00
+
+==> Segundo a definição de MIPS quanto mais rapido o MIPS mais rapido o PC, entao o copilador 2 é mais rapido do que o copilador 1.
+
+
+MIPS= contagem de instruções/tempo de execução *10^6
+
+352,11 =7*10^6/tempo de execução *10^6		=> tempo de execução = 7*10^6/352,11 	=> tempo de execução = 19,88s
+
+400,00 =12*10^6/tempo de execução *10^6		=> tempo de execução = 12*10^6/400,00 	=> tempo de execução = 30,00s
+
+
+
+
+==> De acordo com o tempo de execução o copilador 1 é masi rapido do que o copilador 2.
+
+N= performace do copilador 2/ performace do copilador 1 	=>  N= 30/19,88		=>	N=1,509s mais rapido
+
